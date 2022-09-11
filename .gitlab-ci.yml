@@ -4,4 +4,6 @@ stages:
 build:
     stage: build
     image: ubuntu:latest
+    before_script: "Hello"
     script: echo "Hello Test2"
+    
