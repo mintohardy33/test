@@ -4,4 +4,4 @@ stages:
 build:
     stage: build
     image: ubuntu:latest
-    script: echo "Hello Test2"
+    script: echo "Hello Test2022"
